@@ -8,6 +8,7 @@ function App() {
       <li>Home</li>
       <li>Product</li>
       <li>Contact</li>
+      <li>About Us</li>
     </nav>
     <img src='' alt=''/>
     <h1>Hello {name}</h1>
