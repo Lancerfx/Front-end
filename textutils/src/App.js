@@ -10,7 +10,7 @@ function App() {
       <li>Contact</li>
       <li>About Us</li>
     </nav>
-    <img src='' alt=''/>
+    <img src='' alt='name'/>
     <h1>Hello {name}</h1>
     <div className='Container'>
       Lorem Hello ipsum dolor sit amet consectetur adipisicing elit. Itaque sequi hic illum adipisci maxime! Corrupti blanditiis dolorem quod tempore rem iure minima beatae accusantium nemo deserunt, earum eum cum magnam quia inventore itaque tenetur!
