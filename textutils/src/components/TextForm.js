@@ -1,12 +1,13 @@
 import React from 'react';
 
-export default function textForm() {
+export default function textForm(props) {
   return (
     <div>
-  <div class="mb-3">
-  <label for="myBox" class="form-label">Example textarea</label>
-  <textarea class="form-control" id="myBox" rows="3"></textarea>
+      <h1>{props.heading}</h1>
+  <div className="mb-3">
+  <textarea className="form-control" id="myBox" rows="8"></textarea>
   </div>
+  <button className="btn btn-primary">Convert to upperCase</button>
     </div>
   )
 }
